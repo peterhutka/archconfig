@@ -195,6 +195,7 @@ exec_always --no-startup-id export LANG="en_US.UTF-8"
 exec_always --no-startup-id export LC_ALL="en_US.UTF-8"
 
 exec_always --no-startup-id feh --bg-fill /home/peter/Pictures/bcn.jpg
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf &
 
 gaps inner 10
 gaps outer 0
