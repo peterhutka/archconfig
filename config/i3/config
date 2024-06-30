@@ -192,5 +192,11 @@ bar {
 
 exec_always "i3-dump-log > ~/.i3/logfile" 
 exec_always --no-startup-id export LANG="en_US.UTF-8" 
-exec_always --no-startup-id export LC_ALL="en_US.UTF-8" 
+exec_always --no-startup-id export LC_ALL="en_US.UTF-8"
 
+exec_always --no-startup-id feh --bg-fill /home/peter/Pictures/bcn.jpg
+
+gaps inner 10
+gaps outer 0
+smart_gaps on
+default_border pixel 1
